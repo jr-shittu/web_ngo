@@ -316,6 +316,17 @@ strong {
   padding: 15px 25px;
 }
 
+.custom-btn2 {
+  background: var(--primary-color);
+  color: var(--white-color);
+  border: 2px solid #fff;
+  border-radius: var(--border-radius-large);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-normal);
+  line-height: normal;
+  padding: 15px 25px;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
   color: var(--custom-btn-bg-color);
   margin-top: 8px;
@@ -325,6 +336,11 @@ strong {
 .custom-btn:hover {
   background: var(--primary-color);
   color: var(--white-color);
+}
+
+.custom-btn2:hover {
+  color: var(--primary-color);
+  background: var(--white-color);
 }
 
 .custom-border-btn {
@@ -340,6 +356,9 @@ strong {
   color: var(--white-color);
 }
 
+.above-all{
+  z-index: 9999;
+}
 
 /*---------------------------------------
   NAVIGATION              
@@ -717,11 +736,11 @@ strong {
 
 .volunteer-section::after {
   content: "";
-  background: var(--primary-color);
+  background: #fff;
   border-radius: 50%;
   position: absolute;
-  bottom: -110px;
-  right: -80px;
+  bottom: -170px;
+  right: -90px;
   width: 350px;
   height: 350px;
 }
